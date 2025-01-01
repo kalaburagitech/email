@@ -45,7 +45,7 @@ const sendEmail = (emailRequest) => {
                <p>Description: ${emailRequest.description}</p>
                <p><strong>Welcome to Kalaburagi Tech!</strong></p>
                <p>If you have any queries, contact us at <a href="https://wa.me/+919880020224">9880020224.</a></p>
-               <img src="https://raw.githubusercontent.com/hackerhihello/email/main/kalaburagitech.jpeg" alt="Kalaburagi Tech" width="50%" height="50%">`
+               <img src="https://github.com/kalaburagitech/email/blob/main/kalaburagitech.jpg" alt="Kalaburagi Tech" width="50%" height="50%">`
     };
 
     return transporter.sendMail(mailOptions);
